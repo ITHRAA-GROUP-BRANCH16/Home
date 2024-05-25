@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ITHRAA_GROUP-BRANCH16/Dashboards</title> <!-- Title of the page -8- -->
+    <title>ITHRAA_GROUP-BRANCH16/Dashboards</title> <!-- Title of the page -9- -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,6 +58,25 @@
         .tableauViz {
             width: 100%;
             height: 100%;
+        }
+        @media (min-width: 768px) {
+            .dashboard-container {
+                height: calc(100vh - 70px);
+            }
+            .tableauPlaceholder {
+                width: 80%;
+                height: 80%;
+            }
+        }
+        @media (max-width: 767px) {
+            .dashboard-container {
+                height: calc(100vh - 70px);
+                padding: 10px;
+            }
+            .tableauPlaceholder {
+                width: 100%;
+                height: 100%;
+            }
         }
     </style>
 </head>
