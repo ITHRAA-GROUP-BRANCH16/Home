@@ -58,13 +58,14 @@
     display: flex; /* Uses flexbox to center the child */
     justify-content: center; /* Centers horizontally */
     flex-grow: 1; /* Takes up any remaining space */
+    margin-top: 20px; /* Decreased margin to reduce the space on mobile views */
   }
   @media (min-width: 768px) { /* Adjusts for desktop and larger devices */
     .body {
       padding-top: 100px; /* Larger top padding for desktop */
     }
     .dashboard-container {
-      margin-top: 100px; /* Additional margin to ensure it's below the header */
+      margin-top: 20px; /* Additional margin to ensure it's below the header */
     }
   }
 </style>
