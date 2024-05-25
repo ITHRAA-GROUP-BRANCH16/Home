@@ -1,3 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITHRAA_GROUP-BRANCH16/Dashboards</title> <!-- Title of the page -8- -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+            position: relative;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+        .nav h1 {
+            font-size: 16px;
+            margin: 0;
+            margin-right: auto; /* Ensure the title is aligned to the left */
+            font-weight: normal; /* Match the font weight of the links */
+        }
+        .nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+            font-weight: normal; /* Ensure the links have normal font weight */
+        }
+        .dashboard-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 70px); /* Adjust height considering the header */
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .tableauPlaceholder {
+            width: 100%;
+            height: 100%;
+        }
+        .tableauViz {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header section -->
+<div class="header">
+    <img src="https://ithraa-group-branch16.github.io/Home/%D8%B4%D8%B9%D8%A7%D8%B1%20%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%20-%20%D9%81%D8%B1%D8%B916.png" alt="Logo">
+    <div class="nav">
+        <h1>ITHRAA_GROUP-BRANCH16/Dashboards</h1>
+        <a href="https://ithraa-group-branch16.github.io/Home/">Home</a>
+        <a href="https://ithraa-group-branch16.github.io/Home/">Dashboards</a>
+    </div>
+</div>
+
+<!-- Embedded Tableau dashboard code goes here -->
+<div class='dashboard-container'>
+    <div class='tableauPlaceholder' id='viz1716616325511' style='position: relative'>
+        <noscript><a href='#'><img alt='نسخة عامة ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17164448668480&#47;sheet39&#47;1_rss.png' style='border: none' /></a></noscript>
+        <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='_17164448668480&#47;sheet39' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17164448668480&#47;sheet39&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+</div>
+
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1716616325511');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width='100%';
+    vizElement.style.height='100%';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+<!-- Paste your Tableau embed code above this line -->
+
+</body>
+</html>
+#####################
 <!DOCTYPE html>
 <html lang="en">
 <head>
