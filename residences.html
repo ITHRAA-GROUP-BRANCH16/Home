@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+    justify-content: flex-start; /* Aligns content from the top */
+    margin: 0;
+    padding-top: 80px; /* Adds space at the top of the body to prevent overlap */
+    font-family: Arial, sans-serif; /* Adjusts the font to be more modern */
+    overflow: auto; /* Enables scrolling if content is larger than the viewport */
+  }
+  .header {
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 40px;
+  }
+  .logo span {
+    color: #666;
+    margin-left: 10px;
+    font-weight: normal;
+  }
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 20px; /* Increased margin to ensure it does not cut off */
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #666;
+    transition: color 0.3s;
+  }
+  .nav-links a:hover {
+    color: #000;
+  }
+  .dashboard-container {
+    width: 100%; /* Full width */
+    display: flex; /* Uses flexbox to center the child */
+    justify-content: center; /* Centers horizontally */
+    flex-grow: 1; /* Takes up any remaining space */
+    margin-top: 10px; /* Decreased margin to reduce the space on mobile views */
+  }
+  @media (min-width: 768px) { /* Adjusts for desktop and larger devices */
+    .body {
+      padding-top: 100px; /* Larger top padding for desktop */
+    }
+    .dashboard-container {
+      margin-top: 20px; /* Additional margin to ensure it's below the header */
+    }
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="logo">
+    <img src="https://ithraa-group-branch16.github.io/Home/%D8%B4%D8%B9%D8%A7%D8%B1%20%D8%A7%D8%AB%D8%B1%D8%A7%D8%A1%20%D8%A7%D9%84%D8%AE%D9%8A%D8%B1%20-%20%D9%81%D8%B1%D8%B916.png" alt="Ithraa Logo"> <!-- Replace 'your_logo_url_here' with the actual URL of your logo -->
+    <span>ITHRAA GROUP - BRANCH16</span>
+  </div>
+  <div class="nav-links">
+    <a href="https://ithraa-group-branch16.github.io/Home">Home</a>
+    <a href="#">Dashboards</a>
+  </div>
+</div>
+<div class="dashboard-container">
+  <!-- Insert your Tableau embed code here -->
+<div class='tableauPlaceholder' id='viz1716631256207' style='position: relative'><noscript><a href='#'><img alt='المساكنإثراء الخير - الفرع 16 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17162385574930&#47;sheet28&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='_17162385574930&#47;sheet28' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;_1&#47;_17162385574930&#47;sheet28&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716631256207');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1127px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script></div>
+</body>
+</html>
+  
